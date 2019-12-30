@@ -1,10 +1,10 @@
-package com.example.svwa.entities.common;
+package com.example.svwa.entities.locations;
 
 public abstract class Location {
 
     protected final String locationName;
 
-    public Location(String locationName) {
+    protected Location(String locationName) {
         this.locationName = locationName;
     }
 

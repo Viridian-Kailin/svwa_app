@@ -55,4 +55,8 @@ public class Crop extends WikiObject {
     public void setHasGiantCrop(boolean hasGiantCrop) {
         this.hasGiantCrop = hasGiantCrop;
     }
+
+    public boolean isWineable() {
+        return isWineable;
+    }
 }
